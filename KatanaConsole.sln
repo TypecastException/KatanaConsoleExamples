@@ -4,6 +4,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KatanaConsole", "KatanaConsole\KatanaConsole.csproj", "{8F067BE0-6A83-4867-8F97-75FE7708B5A8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FC8EB210-EABB-450A-BA0A-A59B930184D9} = {FC8EB210-EABB-450A-BA0A-A59B930184D9}
+		{0AEACF96-B362-4FE5-935F-AD577BA17D60} = {0AEACF96-B362-4FE5-935F-AD577BA17D60}
+		{38034EEE-57AF-4474-A60F-8F973E698B15} = {38034EEE-57AF-4474-A60F-8F973E698B15}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SillyAuthentication", "SillyAuthentication\SillyAuthentication.csproj", "{0AEACF96-B362-4FE5-935F-AD577BA17D60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SillyLogging", "SillyLogging\SillyLogging.csproj", "{FC8EB210-EABB-450A-BA0A-A59B930184D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMiddleware", "MyMiddleware\MyMiddleware.csproj", "{38034EEE-57AF-4474-A60F-8F973E698B15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +26,18 @@ Global
 		{8F067BE0-6A83-4867-8F97-75FE7708B5A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F067BE0-6A83-4867-8F97-75FE7708B5A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F067BE0-6A83-4867-8F97-75FE7708B5A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AEACF96-B362-4FE5-935F-AD577BA17D60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AEACF96-B362-4FE5-935F-AD577BA17D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AEACF96-B362-4FE5-935F-AD577BA17D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AEACF96-B362-4FE5-935F-AD577BA17D60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC8EB210-EABB-450A-BA0A-A59B930184D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC8EB210-EABB-450A-BA0A-A59B930184D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC8EB210-EABB-450A-BA0A-A59B930184D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC8EB210-EABB-450A-BA0A-A59B930184D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38034EEE-57AF-4474-A60F-8F973E698B15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38034EEE-57AF-4474-A60F-8F973E698B15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38034EEE-57AF-4474-A60F-8F973E698B15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38034EEE-57AF-4474-A60F-8F973E698B15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
